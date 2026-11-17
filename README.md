@@ -1,5 +1,7 @@
 # Gabriel Product Boilerplate
 
+_By Gabriel Lopes · [gabriellopes.com](https://gabriellopes.com)_
+
 A method, templates and AI skills for taking a **brand, product or app** from a blank page to delivery, in seven stages:
 
 ```

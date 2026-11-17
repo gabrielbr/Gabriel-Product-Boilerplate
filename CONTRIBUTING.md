@@ -24,7 +24,7 @@ If it doesn't pass question 1, don't add it.
 
 ## 2. Universal rules
 
-- **No real names.** Nothing in this repo mentions a real client, product, person, company or private repo. The only exceptions are tools, the public sources a skill cites, and the author in `LICENSE`. Worked examples use fictional names ("Acme Coffee", "Example") or neutral wording ("a finance client"). Real hex values, logos and copy from client work are real data too: invent new ones.
+- **No real names.** Nothing in this repo mentions a real client, product, person, company or private repo. The only exceptions are tools, the public sources a skill cites, and the author credit (`LICENSE`, and the byline with the author's website at the top of `README.md` and `PLAYBOOK.md`). Worked examples use fictional names ("Acme Coffee", "Example") or neutral wording ("a finance client"). Real hex values, logos and copy from client work are real data too: invent new ones.
 - **No secrets or private data.** No tokens, emails, addresses, internal URLs or customer data.
 - **Writing style.** Short, plain, concrete and in English. Sentence-case headings. Verbs first in checklists. No hype words, no emoji, no em dashes in the playbook or templates.
 - **One source of truth.** Never copy a rule into two places. Link to it instead. If two files disagree, `PLAYBOOK.md` wins; fix the other file in the same PR.

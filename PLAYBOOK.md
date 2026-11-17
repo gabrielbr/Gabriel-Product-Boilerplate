@@ -1,5 +1,7 @@
 # Brand & Product Playbook
 
+_By Gabriel Lopes · [gabriellopes.com](https://gabriellopes.com)_
+
 A step-by-step method for taking any project from a blank page to a delivered brand, product or app. It works the same for:
 
 - a client's brand,

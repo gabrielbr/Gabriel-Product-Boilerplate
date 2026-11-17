@@ -5,6 +5,7 @@
 - scripts/check.py and a pull-request workflow that enforce them.
 - The design-system README template is now `templates/design-system-readme.md`.
 - The rebrand checklist template is linked from the playbook.
+- Author byline with gabriellopes.com on the playbook and README.
 
 ## 0.1.0 · 2026-11-17
 - The playbook: seven stages, three tracks, gates, skills, hand-run checklists.
