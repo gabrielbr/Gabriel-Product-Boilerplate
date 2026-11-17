@@ -1,5 +1,7 @@
 # Gabriel Product Boilerplate
 
+_By Gabriel Lopes · [gabriellopes.com](https://gabriellopes.com)_
+
 A method, templates and AI skills for taking a **brand, product or app** from a blank page to delivery, in seven stages:
 
 ```
@@ -24,6 +26,8 @@ It works for three kinds of project (tracks):
 | [.claude/skills/](.claude/skills/) | Seven skills. Core: `ux-user-flows`, `impeccable`, `graphic-design-fundamentals`, `less-is-more`. Brand: `brand-identity-kit`, `logo-design`, `anti-slop`. Details in [VENDORED.md](.claude/skills/VENDORED.md). |
 | [templates/](templates/) | Brief, sources, decision record, PRODUCT.md, voice, design-system README, tokens, project AGENTS.md, flow, audit, client delivery instructions, rebrand checklist, status |
 | [scripts/new-project.sh](scripts/new-project.sh) | Creates a project folder from the skeleton and templates |
+| [scripts/check.py](scripts/check.py) | Checks the repo against [CONTRIBUTING.md](CONTRIBUTING.md); runs on every pull request |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Rules for adding skills, templates and process changes |
 
 ## Quick start
 
@@ -46,6 +50,10 @@ Then open `PLAYBOOK.md` and start at Stage 1.
 - **Included:** the four core skills and the three brand skills. Claude Code loads them automatically when you work in this repo, or in a project created from it (tracks B and C copy them in).
 - **Logo library:** `logo-design` ships the index of its reference library but not the logo files, which are trademarks of their owners.
 - **Not included:** the optional specialists. The playbook names them; install them if you have them.
+
+## Contributing
+
+Want to add a skill, a template or a step? Read [CONTRIBUTING.md](CONTRIBUTING.md) first. Agents read it too. Every pull request runs `python3 scripts/check.py`.
 
 ## Licence
 

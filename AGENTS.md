@@ -93,8 +93,13 @@ Stop and ask the person before you:
 
 ## Working in this repo itself
 
-If you're asked to change the method (this repo), work on a branch and open a PR. In that PR:
+If you're asked to change the method itself (add or edit a skill, template, script or step), read [CONTRIBUTING.md](CONTRIBUTING.md) first and follow it. It is binding for agents.
 
-- update `PLAYBOOK.md`, the matching template, this file and the playbook's one-page checklist together;
-- add a line to `CHANGELOG.md`;
-- never make the playbook mention a real client, product or person. It's meant to be shared.
+The short version:
+1. Is it generic? Does it already exist? Where does it belong?
+2. Register it everywhere CONTRIBUTING.md lists.
+3. Add a `CHANGELOG.md` line under `## Unreleased`.
+4. `python3 scripts/check.py` passes.
+5. Work on a branch and open a PR. Never push to `main`.
+
+Never name a real client, product or person. This repo is meant to be shared.

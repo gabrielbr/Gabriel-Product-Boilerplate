@@ -1,8 +1,8 @@
-# 00 Instructions – {{CLIENT}} Design Assets
+# 00 Instructions – {{PROJECT}} Design Assets
 
 Updated {{date}} · {{main piece and launch date}}
 
-These folders hold everything {{CLIENT}} needs for {{report / website / social}}. Every file follows the {{CLIENT}} Design System.
+These folders hold everything {{PROJECT}} needs for {{report / website / social}}. Every file follows the {{PROJECT}} Design System.
 
 ## Folders
 | Folder | Contents | Use for |
@@ -50,7 +50,7 @@ The approved direction (date). Which file is for print, web and social.
   - posts 1080 × 1350;
   - stories 1080 × 1920;
   - LinkedIn banner 1584 × 396.
-- **Link:** always {{URL}}, with no tracking tags.
+- **Link:** always {{Link}}, with no tracking tags.
 - **Editing:** {{design-tool folder}}.
 
 ## Ground rules

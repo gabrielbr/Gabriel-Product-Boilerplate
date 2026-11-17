@@ -1,4 +1,4 @@
-# Rebrand checklist: {{OLD}} → {{NEW}}
+# Rebrand checklist: {{Old name}} → {{New name}}
 
 Run all of it **before** the announcement. Tick each item with a date and a link.
 

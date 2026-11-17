@@ -1,5 +1,7 @@
 # Brand & Product Playbook
 
+_By Gabriel Lopes · [gabriellopes.com](https://gabriellopes.com)_
+
 A step-by-step method for taking any project from a blank page to a delivered brand, product or app. It works the same for:
 
 - a client's brand,
@@ -286,7 +288,7 @@ Run the skills **in this order**. Use them while designing too, not only at the 
 - [ ] **Promote upward:** when one product invents something every product could use, move it into the shared core. Each core release lists "what each app has to do".
 
 ### Rebrands
-Run this checklist **before** announcing:
+Run this checklist (template: `templates/rebrand-checklist.md`) **before** announcing:
 
 - [ ] domain + 301 redirects + search console
 - [ ] social handles
