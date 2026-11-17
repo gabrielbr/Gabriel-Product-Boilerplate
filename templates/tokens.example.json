@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "meta": { "brand": "{{PROJECT}}", "source": "Where these values were measured, with dates" },
+  "color": {
+    "ground":    { "light": "#F5F4F0", "dark": "#101215", "usage": "Page background" },
+    "surface":   { "light": "#ECEAE4", "dark": "#181B20", "usage": "Alternate band, quiet panels" },
+    "ink":       { "light": "#111317", "dark": "#F2F2EE", "usage": "Text and logo" },
+    "ink-muted": { "light": "#5B636C", "dark": "#9AA1A8", "usage": "Secondary text, captions" },
+    "line":      { "light": "#C9CCCF", "dark": "#2E343A", "usage": "1px rules; decorative only" },
+    "accent":    { "light": "#2F4FA8", "dark": "#8FA9F2", "usage": "One per view: the key action or number" },
+    "on-accent": { "light": "#FFFFFF", "dark": "#101215", "usage": "Text on accent" }
+  },
+  "font": {
+    "family": { "sans": "Replace Me, system-ui, sans-serif", "mono": "ui-monospace, monospace" },
+    "weight": { "display": 300, "body": 400, "label": 500 }
+  },
+  "type": {
+    "display": { "size": 72, "line": 1.05 }, "h1": { "size": 54, "line": 1.1 },
+    "h2": { "size": 40, "line": 1.15 }, "h3": { "size": 30, "line": 1.2 },
+    "lead": { "size": 22, "line": 1.45 }, "body": { "size": 17, "line": 1.55 },
+    "small": { "size": 14, "line": 1.5 }, "caption": { "size": 13, "line": 1.4 }
+  },
+  "space": [4, 8, 12, 16, 24, 32, 48, 64, 96, 128],
+  "radius": { "none": 0, "sm": 4, "md": 8, "lg": 16, "round": 999 },
+  "motion": { "standard": 150, "emphasis": 250, "easing": "cubic-bezier(0.2, 0, 0, 1)", "usage": "No bounce; honour reduced motion" },
+  "contrast": [
+    { "fg": "ink", "bg": "ground", "min": 4.5 },
+    { "fg": "ink-muted", "bg": "ground", "min": 4.5 },
+    { "fg": "on-accent", "bg": "accent", "min": 4.5 },
+    { "fg": "accent", "bg": "ground", "min": 3.0 }
+  ]
+}
