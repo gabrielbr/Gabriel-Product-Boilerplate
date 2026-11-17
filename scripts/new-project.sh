@@ -27,7 +27,7 @@ fill "$T/brief.md"                "$DEST/00 Brief/brief.md"
 fill "$T/sources.md"              "$DEST/00 Brief/sources.md"
 cp   "$T/decision.md"             "$DEST/00 Brief/decisions/0000-template.md"
 fill "$T/voice.md"                "$DEST/01 Brand/voice.md"
-fill "$T/design-system-README.md" "$DEST/02 Design System/README.md"
+fill "$T/design-system-readme.md" "$DEST/02 Design System/README.md"
 fill "$T/tokens.example.json"     "$DEST/02 Design System/tokens.json"
 cp   "$T/audit.md"                "$DEST/audits/TEMPLATE.md"
 

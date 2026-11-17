@@ -286,7 +286,7 @@ Run the skills **in this order**. Use them while designing too, not only at the 
 - [ ] **Promote upward:** when one product invents something every product could use, move it into the shared core. Each core release lists "what each app has to do".
 
 ### Rebrands
-Run this checklist **before** announcing:
+Run this checklist (template: `templates/rebrand-checklist.md`) **before** announcing:
 
 - [ ] domain + 301 redirects + search console
 - [ ] social handles

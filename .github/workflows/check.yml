@@ -1,0 +1,21 @@
+name: check
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Repo rules (CONTRIBUTING.md)
+        run: python3 scripts/check.py
+      - name: new-project.sh works for every track
+        run: |
+          for t in a b c; do
+            scripts/new-project.sh "Example $t" EX "$t" "$RUNNER_TEMP/ex-$t"
+            test -f "$RUNNER_TEMP/ex-$t/STATUS.md"
+          done

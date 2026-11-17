@@ -16,11 +16,11 @@ Proportion: ~60 ground · ~30 ink · ≤10 accent.
 
 | Token | Light | Dark | Role | Contrast |
 |---|---|---|---|---|
-| ground | | | page background | — |
-| surface | | | quiet panels | — |
+| ground | | | page background | n/a |
+| surface | | | quiet panels | n/a |
 | ink | | | text, logo | x:1 on ground |
 | ink-muted | | | secondary text | ≥4.5:1 |
-| line | | | rules (decorative) | — |
+| line | | | rules (decorative) | n/a |
 | accent | | | one per view: the key thing | ≥3:1 (graphics), ≥4.5:1 (text) |
 | on-accent | | | text on accent | ≥4.5:1 |
 
