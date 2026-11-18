@@ -15,6 +15,13 @@ This project follows the Gabriel Product Boilerplate playbook (PLAYBOOK.md in th
 8. **Components and layout:** screens compose the component kit; one primary action per screen; 390 px works.
 9. **Before you finish, check:** contrast in every theme, colour never alone, targets ≥44–48, copy against the voice, the audit file written.
 
+## Working with the person
+- **Guide with questions.** Use the agent's question tool when it has one (`AskUserQuestion` in Claude Code); otherwise ask in chat with numbered options.
+- **Keep rounds small:** at most four questions, 2–4 options each, the recommended one first with a one-line reason.
+- **Ask, don't invent.** Facts and brand values come from the person or a named source.
+- **End every turn with the next step:** one question or one clear action.
+- **Stop-and-ask items** (see "Product law") always go through a question; never assume a yes.
+
 ## Design work
 Every new or changed screen, flow, page or asset is designed with, and audited against, the skills in `.claude/skills/`, in this order:
 1. ux-user-flows
