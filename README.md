@@ -35,7 +35,7 @@ It works for three kinds of project (tracks):
 
 > Start a new project with the playbook. It's a <client brand / product / app> called <name>.
 
-The agent picks the track, creates the project folder and walks you through each stage. It loads the right skill at each step and stops at each gate for your approval.
+The agent guides you with questions, using clickable options where the agent supports them (in Claude Code, for example). It picks the track with you, creates the project folder and walks you through each stage. It loads the right skill at each step and stops at each gate for your approval.
 
 **By hand.**
 ```sh
